@@ -1,7 +1,6 @@
 version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
 options: "ed9372ebc8384d6ec18d642c0efb8498"
-build_time: [1506741179, 766214000]
+build_time: [1506733424, 906154000]
 inputs:
   "/Users/nicknoles/Documents/Personal/Code for Good/team-7/CFG/CFG/ViewController.swift": [1506733414, 0]
-  "/Users/nicknoles/Documents/Personal/Code for Good/team-7/CFG/CFG/TimelineTableViewController.swift": !dirty [9223372036, 854775807]
   "/Users/nicknoles/Documents/Personal/Code for Good/team-7/CFG/CFG/AppDelegate.swift": [1506733414, 0]
