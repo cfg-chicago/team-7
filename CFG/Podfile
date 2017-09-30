@@ -8,6 +8,7 @@ target 'CFG' do
   # Pods for CFG
   pod 'Firebase/Auth'
   pod 'Firebase/Core’
+  pod 'Firebase/Database’
 
   target 'CFGTests' do
     inherit! :search_paths
