@@ -1,9 +1,9 @@
 from flask import Flask, render_template
-from firebase import firebase
+#from firebase import firebase
 import os
 app = Flask(__name__, template_folder='templates')
 
-firebase = firebase.FirebaseApplication('https://cfgteam7.firebaseio.com/', authentication=None)
+#firebase = firebase.FirebaseApplication('https://cfgteam7.firebaseio.com/', authentication=None)
 #authentication = firebase.Authentication('AIzaSyDL_wTY9KSHsIk83KSV4de1nRvR34Cf5cA', 'nnoles@umich.edu', extra={'id': 123})
 
 @app.route("/")
