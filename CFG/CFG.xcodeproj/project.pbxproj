@@ -13,11 +13,19 @@
 		3D264A421F7F11A00050524F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D264A401F7F11A00050524F /* LaunchScreen.storyboard */; };
 		3D264A4D1F7F11A10050524F /* CFGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264A4C1F7F11A10050524F /* CFGTests.swift */; };
 		3D264A581F7F11A10050524F /* CFGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264A571F7F11A10050524F /* CFGUITests.swift */; };
+<<<<<<< HEAD
 		3D4A51991F7F2D3100DA7861 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A51981F7F2D3100DA7861 /* LogInViewController.swift */; };
 		3D4A519B1F7F2D3D00DA7861 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A519A1F7F2D3D00DA7861 /* SignUpViewController.swift */; };
 		9A79D5ACD162ECC3C07014ED /* Pods_CFGUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEE7103325DF1599F0076B /* Pods_CFGUITests.framework */; };
 		AF990A580111C0054002151A /* Pods_CFGTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ADD56DB4C38FAB256E71C /* Pods_CFGTests.framework */; };
 		F37762D292C7D66306673A44 /* Pods_CFG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D227520254898BB7BC7884 /* Pods_CFG.framework */; };
+=======
+		79407A361F7F39C900D23FB3 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */; };
+		79407A3A1F7F40B600D23FB3 /* Jpics in Resources */ = {isa = PBXBuildFile; fileRef = 79407A391F7F40B600D23FB3 /* Jpics */; };
+		79407A3E1F7F40D600D23FB3 /* Hiking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3B1F7F40D600D23FB3 /* Hiking.jpg */; };
+		79407A3F1F7F40D600D23FB3 /* Woodwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */; };
+		79407A401F7F40D600D23FB3 /* Banking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3D1F7F40D600D23FB3 /* Banking.jpg */; };
+>>>>>>> 90b0c45a88d8177b8a69530ff9881d10ef619def
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,7 @@
 		3D264A531F7F11A10050524F /* CFGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D264A571F7F11A10050524F /* CFGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGUITests.swift; sourceTree = "<group>"; };
 		3D264A591F7F11A10050524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3D4A51981F7F2D3100DA7861 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		3D4A519A1F7F2D3D00DA7861 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3D4A519D1F7F2E9400DA7861 /* Background.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Background.MOV; path = ../../../Background.MOV; sourceTree = "<group>"; };
@@ -63,6 +72,13 @@
 		C7BEE7103325DF1599F0076B /* Pods_CFGUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFGUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05ADD56DB4C38FAB256E71C /* Pods_CFGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFGTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D826D2B9E532AFFCA92C6B19 /* Pods-CFG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFG.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFG/Pods-CFG.release.xcconfig"; sourceTree = "<group>"; };
+=======
+		79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		79407A391F7F40B600D23FB3 /* Jpics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Jpics; sourceTree = SOURCE_ROOT; };
+		79407A3B1F7F40D600D23FB3 /* Hiking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hiking.jpg; path = ../Jpics/Hiking.jpg; sourceTree = "<group>"; };
+		79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Woodwork.jpg; path = ../Jpics/Woodwork.jpg; sourceTree = "<group>"; };
+		79407A3D1F7F40D600D23FB3 /* Banking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Banking.jpg; path = ../Jpics/Banking.jpg; sourceTree = "<group>"; };
+>>>>>>> 90b0c45a88d8177b8a69530ff9881d10ef619def
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,12 +136,21 @@
 			children = (
 				3DE369A11F7F420A001B928E /* GoogleService-Info.plist */,
 				3D264A371F7F11A00050524F /* AppDelegate.swift */,
+<<<<<<< HEAD
 				3D4A51981F7F2D3100DA7861 /* LogInViewController.swift */,
 				3D4A519A1F7F2D3D00DA7861 /* SignUpViewController.swift */,
+=======
+				79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */,
+				3D264A391F7F11A00050524F /* ViewController.swift */,
+>>>>>>> 90b0c45a88d8177b8a69530ff9881d10ef619def
 				3D264A3B1F7F11A00050524F /* Main.storyboard */,
 				3D4A519D1F7F2E9400DA7861 /* Background.MOV */,
 				3D264A3E1F7F11A00050524F /* Assets.xcassets */,
 				3D264A401F7F11A00050524F /* LaunchScreen.storyboard */,
+				79407A3B1F7F40D600D23FB3 /* Hiking.jpg */,
+				79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */,
+				79407A3D1F7F40D600D23FB3 /* Banking.jpg */,
+				79407A391F7F40B600D23FB3 /* Jpics */,
 				3D264A431F7F11A00050524F /* Info.plist */,
 			);
 			path = CFG;
@@ -291,8 +316,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79407A3E1F7F40D600D23FB3 /* Hiking.jpg in Resources */,
 				3D264A421F7F11A00050524F /* LaunchScreen.storyboard in Resources */,
+				79407A3F1F7F40D600D23FB3 /* Woodwork.jpg in Resources */,
+				79407A401F7F40D600D23FB3 /* Banking.jpg in Resources */,
 				3D264A3F1F7F11A00050524F /* Assets.xcassets in Resources */,
+				79407A3A1F7F40B600D23FB3 /* Jpics in Resources */,
 				3D264A3D1F7F11A00050524F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +501,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				3D264A3A1F7F11A00050524F /* ViewController.swift in Sources */,
+				79407A361F7F39C900D23FB3 /* TimelineTableViewController.swift in Sources */,
+>>>>>>> 90b0c45a88d8177b8a69530ff9881d10ef619def
 				3D264A381F7F11A00050524F /* AppDelegate.swift in Sources */,
 				3D4A519B1F7F2D3D00DA7861 /* SignUpViewController.swift in Sources */,
 				3D4A51991F7F2D3100DA7861 /* LogInViewController.swift in Sources */,
