@@ -1,6 +1,27 @@
 h1 {
-	width: 600px;
 	border-style: solid;
 	border-width: 1px;
+	text-align: center;
+}
+
+body {
+	background-color: #35d3b1;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+p {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+form {
 	text-align: center;
 }
