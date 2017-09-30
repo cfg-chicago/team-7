@@ -1,0 +1,6 @@
+framework module Pods_CFG {
+  umbrella header "Pods-CFG-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,8 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>XCTest</string>
-	<string>CFG</string>
+	<string>Foundation</string>
+	<string>FirebaseInstanceID</string>
+	<string>GoogleMobileAds</string>
+	<string>FirebaseDatabase</string>
+	<string>Fabric</string>
+	<string>FirebaseAnalytics</string>
+	<string>sys</string>
+	<string>FirebasePerformance</string>
 	<string>UIKit</string>
+	<string>FirebaseRemoteConfig</string>
+	<string>Crashlytics</string>
+	<string>WatchKit</string>
+	<string>FirebaseAuth</string>
+	<string>FirebaseCrash</string>
+	<string>FirebaseMessaging</string>
+	<string>FirebaseCore</string>
+	<string>FirebaseInvites</string>
+	<string>FirebaseStorage</string>
+	<string>FirebaseDynamicLinks</string>
+	<string>FirebaseAppIndexing</string>
 </array>
 </plist>
