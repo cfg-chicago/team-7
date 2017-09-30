@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0CBF561F7FB77400297BB9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0CBF551F7FB77400297BB9 /* ProfileViewController.swift */; };
+		3D24A89E1F7F4ED1007ECF24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D24A89D1F7F4ED1007ECF24 /* GoogleService-Info.plist */; };
+		3D24A8A01F7F511A007ECF24 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24A89F1F7F511A007ECF24 /* ReviewViewController.swift */; };
+		3D24A8A21F7F6704007ECF24 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24A8A11F7F6704007ECF24 /* Journey.swift */; };
+		3D24A8A61F7F6B79007ECF24 /* JourneyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24A8A51F7F6B79007ECF24 /* JourneyCollectionViewCell.swift */; };
 		3D264A381F7F11A00050524F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264A371F7F11A00050524F /* AppDelegate.swift */; };
 		3D264A3D1F7F11A00050524F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D264A3B1F7F11A00050524F /* Main.storyboard */; };
 		3D264A3F1F7F11A00050524F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D264A3E1F7F11A00050524F /* Assets.xcassets */; };
@@ -15,14 +20,27 @@
 		3D264A581F7F11A10050524F /* CFGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264A571F7F11A10050524F /* CFGUITests.swift */; };
 		3D4A51991F7F2D3100DA7861 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A51981F7F2D3100DA7861 /* LogInViewController.swift */; };
 		3D4A519B1F7F2D3D00DA7861 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A519A1F7F2D3D00DA7861 /* SignUpViewController.swift */; };
+		3D556EFA1F7FDDF600E84D10 /* dimitri_leggas_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D556EF91F7FDDF500E84D10 /* dimitri_leggas_2.jpg */; };
+		3D556EFC1F7FDE1100E84D10 /* Code-1076536.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D556EFB1F7FDE1000E84D10 /* Code-1076536.jpg */; };
+		3D556EFF1F7FE30F00E84D10 /* facebookshareicon160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D556EFD1F7FE30800E84D10 /* facebookshareicon160x160.png */; };
+		3D556F001F7FE30F00E84D10 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D556EFE1F7FE30B00E84D10 /* images.png */; };
+		3D556F021F7FE31D00E84D10 /* icon-blog.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D556F011F7FE31D00E84D10 /* icon-blog.png */; };
+		3D556F041F7FE4AF00E84D10 /* Webp.net-resizeimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D556F031F7FE4AF00E84D10 /* Webp.net-resizeimage.png */; };
+		3D556F061F7FE4E600E84D10 /* Webp.net-resizeimage (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 3D556F051F7FE4E600E84D10 /* Webp.net-resizeimage (1).png */; };
+		3DB4214A1F7FD6D900C08271 /* icons8-Home-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB421481F7FD6D900C08271 /* icons8-Home-50.png */; };
+		3DB4214B1F7FD6D900C08271 /* icons8-Activity Feed-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB421491F7FD6D900C08271 /* icons8-Activity Feed-50.png */; };
+		79407A361F7F39C900D23FB3 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */; };
 		9A79D5ACD162ECC3C07014ED /* Pods_CFGUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEE7103325DF1599F0076B /* Pods_CFGUITests.framework */; };
 		AF990A580111C0054002151A /* Pods_CFGTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ADD56DB4C38FAB256E71C /* Pods_CFGTests.framework */; };
 		F37762D292C7D66306673A44 /* Pods_CFG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D227520254898BB7BC7884 /* Pods_CFG.framework */; };
+<<<<<<< HEAD
 		79407A361F7F39C900D23FB3 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */; };
 		79407A3A1F7F40B600D23FB3 /* Jpics in Resources */ = {isa = PBXBuildFile; fileRef = 79407A391F7F40B600D23FB3 /* Jpics */; };
 		79407A3E1F7F40D600D23FB3 /* Hiking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3B1F7F40D600D23FB3 /* Hiking.jpg */; };
 		79407A3F1F7F40D600D23FB3 /* Woodwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */; };
 		79407A401F7F40D600D23FB3 /* Banking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3D1F7F40D600D23FB3 /* Banking.jpg */; };
+=======
+>>>>>>> 702fc0c256c64ddca7347b73083770667425486b
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +65,11 @@
 		0A1159E47DD462534C90DE29 /* Pods-CFG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CFG/Pods-CFG.debug.xcconfig"; sourceTree = "<group>"; };
 		16D227520254898BB7BC7884 /* Pods_CFG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA7085C23512E2072EE11FF /* Pods-CFGTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFGTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CFGTests/Pods-CFGTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0CBF551F7FB77400297BB9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = /Users/ajeetseenivasan/Desktop/CodeForGood/CFG/CFG/ProfileViewController.swift; sourceTree = "<absolute>"; };
+		3D24A89D1F7F4ED1007ECF24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D24A89F1F7F511A007ECF24 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		3D24A8A11F7F6704007ECF24 /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		3D24A8A51F7F6B79007ECF24 /* JourneyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyCollectionViewCell.swift; sourceTree = "<group>"; };
 		3D264A341F7F11A00050524F /* CFG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D264A371F7F11A00050524F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D264A3C1F7F11A00050524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,18 +84,30 @@
 		3D264A591F7F11A10050524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4A51981F7F2D3100DA7861 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		3D4A519A1F7F2D3D00DA7861 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		3D4A519D1F7F2E9400DA7861 /* Background.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Background.MOV; path = ../../../Background.MOV; sourceTree = "<group>"; };
+		3D556EF91F7FDDF500E84D10 /* dimitri_leggas_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dimitri_leggas_2.jpg; sourceTree = "<group>"; };
+		3D556EFB1F7FDE1000E84D10 /* Code-1076536.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Code-1076536.jpg"; sourceTree = "<group>"; };
+		3D556EFD1F7FE30800E84D10 /* facebookshareicon160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookshareicon160x160.png; sourceTree = "<group>"; };
+		3D556EFE1F7FE30B00E84D10 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		3D556F011F7FE31D00E84D10 /* icon-blog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-blog.png"; sourceTree = "<group>"; };
+		3D556F031F7FE4AF00E84D10 /* Webp.net-resizeimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage.png"; sourceTree = "<group>"; };
+		3D556F051F7FE4E600E84D10 /* Webp.net-resizeimage (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage (1).png"; sourceTree = "<group>"; };
+		3DB421481F7FD6D900C08271 /* icons8-Home-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Home-50.png"; sourceTree = "<group>"; };
+		3DB421491F7FD6D900C08271 /* icons8-Activity Feed-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Activity Feed-50.png"; sourceTree = "<group>"; };
 		3DE369A11F7F420A001B928E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78E7F1C9B437EE645603C07D /* Pods-CFGUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFGUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFGUITests/Pods-CFGUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 		8340EDD7C3A7597CD7865549 /* Pods-CFGTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFGTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFGTests/Pods-CFGTests.release.xcconfig"; sourceTree = "<group>"; };
 		C7BEE7103325DF1599F0076B /* Pods_CFGUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFGUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05ADD56DB4C38FAB256E71C /* Pods_CFGTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CFGTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D826D2B9E532AFFCA92C6B19 /* Pods-CFG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CFG.release.xcconfig"; path = "Pods/Target Support Files/Pods-CFG/Pods-CFG.release.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 		79407A391F7F40B600D23FB3 /* Jpics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Jpics; sourceTree = SOURCE_ROOT; };
 		79407A3B1F7F40D600D23FB3 /* Hiking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hiking.jpg; path = ../Jpics/Hiking.jpg; sourceTree = "<group>"; };
 		79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Woodwork.jpg; path = ../Jpics/Woodwork.jpg; sourceTree = "<group>"; };
 		79407A3D1F7F40D600D23FB3 /* Banking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Banking.jpg; path = ../Jpics/Banking.jpg; sourceTree = "<group>"; };
+=======
+>>>>>>> 702fc0c256c64ddca7347b73083770667425486b
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,19 +164,32 @@
 			isa = PBXGroup;
 			children = (
 				3DE369A11F7F420A001B928E /* GoogleService-Info.plist */,
+				3D24A89D1F7F4ED1007ECF24 /* GoogleService-Info.plist */,
 				3D264A371F7F11A00050524F /* AppDelegate.swift */,
 				3D4A51981F7F2D3100DA7861 /* LogInViewController.swift */,
+				3D24A89F1F7F511A007ECF24 /* ReviewViewController.swift */,
 				3D4A519A1F7F2D3D00DA7861 /* SignUpViewController.swift */,
+<<<<<<< HEAD
 				79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */,
 				3D264A391F7F11A00050524F /* ViewController.swift */,
+=======
+				3D556EFB1F7FDE1000E84D10 /* Code-1076536.jpg */,
+				3D556EF91F7FDDF500E84D10 /* dimitri_leggas_2.jpg */,
+				79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */,
+				3DB421491F7FD6D900C08271 /* icons8-Activity Feed-50.png */,
+				3DB421481F7FD6D900C08271 /* icons8-Home-50.png */,
+				3D0CBF551F7FB77400297BB9 /* ProfileViewController.swift */,
+				3D24A8A11F7F6704007ECF24 /* Journey.swift */,
+>>>>>>> 702fc0c256c64ddca7347b73083770667425486b
 				3D264A3B1F7F11A00050524F /* Main.storyboard */,
-				3D4A519D1F7F2E9400DA7861 /* Background.MOV */,
+				3D24A8A51F7F6B79007ECF24 /* JourneyCollectionViewCell.swift */,
 				3D264A3E1F7F11A00050524F /* Assets.xcassets */,
+				3D556F011F7FE31D00E84D10 /* icon-blog.png */,
+				3D556EFE1F7FE30B00E84D10 /* images.png */,
+				3D556F051F7FE4E600E84D10 /* Webp.net-resizeimage (1).png */,
+				3D556F031F7FE4AF00E84D10 /* Webp.net-resizeimage.png */,
+				3D556EFD1F7FE30800E84D10 /* facebookshareicon160x160.png */,
 				3D264A401F7F11A00050524F /* LaunchScreen.storyboard */,
-				79407A3B1F7F40D600D23FB3 /* Hiking.jpg */,
-				79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */,
-				79407A3D1F7F40D600D23FB3 /* Banking.jpg */,
-				79407A391F7F40B600D23FB3 /* Jpics */,
 				3D264A431F7F11A00050524F /* Info.plist */,
 			);
 			path = CFG;
@@ -307,12 +355,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79407A3E1F7F40D600D23FB3 /* Hiking.jpg in Resources */,
+				3D556F041F7FE4AF00E84D10 /* Webp.net-resizeimage.png in Resources */,
+				3DB4214B1F7FD6D900C08271 /* icons8-Activity Feed-50.png in Resources */,
+				3D24A89E1F7F4ED1007ECF24 /* GoogleService-Info.plist in Resources */,
+				3D556EFA1F7FDDF600E84D10 /* dimitri_leggas_2.jpg in Resources */,
 				3D264A421F7F11A00050524F /* LaunchScreen.storyboard in Resources */,
-				79407A3F1F7F40D600D23FB3 /* Woodwork.jpg in Resources */,
-				79407A401F7F40D600D23FB3 /* Banking.jpg in Resources */,
+				3D556F021F7FE31D00E84D10 /* icon-blog.png in Resources */,
+				3D556EFF1F7FE30F00E84D10 /* facebookshareicon160x160.png in Resources */,
+				3DB4214A1F7FD6D900C08271 /* icons8-Home-50.png in Resources */,
+				3D556EFC1F7FDE1100E84D10 /* Code-1076536.jpg in Resources */,
 				3D264A3F1F7F11A00050524F /* Assets.xcassets in Resources */,
-				79407A3A1F7F40B600D23FB3 /* Jpics in Resources */,
+				3D556F001F7FE30F00E84D10 /* images.png in Resources */,
+				3D556F061F7FE4E600E84D10 /* Webp.net-resizeimage (1).png in Resources */,
 				3D264A3D1F7F11A00050524F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,12 +430,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-CFG/Pods-CFG-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,10 +548,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				3D264A3A1F7F11A00050524F /* ViewController.swift in Sources */,
+=======
+				3D24A8A21F7F6704007ECF24 /* Journey.swift in Sources */,
+>>>>>>> 702fc0c256c64ddca7347b73083770667425486b
 				79407A361F7F39C900D23FB3 /* TimelineTableViewController.swift in Sources */,
 				3D264A381F7F11A00050524F /* AppDelegate.swift in Sources */,
+				3D24A8A01F7F511A007ECF24 /* ReviewViewController.swift in Sources */,
+				3D24A8A61F7F6B79007ECF24 /* JourneyCollectionViewCell.swift in Sources */,
 				3D4A519B1F7F2D3D00DA7861 /* SignUpViewController.swift in Sources */,
+				3D0CBF561F7FB77400297BB9 /* ProfileViewController.swift in Sources */,
 				3D4A51991F7F2D3100DA7861 /* LogInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
