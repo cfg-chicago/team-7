@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "762FF0952A57FA37F7966C5188DCAE75FD41DA22",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "762FF0952A57FA37F7966C5188DCAE75FD41DA22" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB9EE718-DCB2-4AED-986D-26DE1B034EC0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "762FF0952A57FA37F7966C5188DCAE75FD41DA22" : "team-7\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CFG",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CFG\/CFG.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cfg-chicago\/team-7",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "762FF0952A57FA37F7966C5188DCAE75FD41DA22"
+    }
+  ]
+}
