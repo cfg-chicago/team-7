@@ -15,6 +15,10 @@
 		3D264A4D1F7F11A10050524F /* CFGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264A4C1F7F11A10050524F /* CFGTests.swift */; };
 		3D264A581F7F11A10050524F /* CFGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264A571F7F11A10050524F /* CFGUITests.swift */; };
 		79407A361F7F39C900D23FB3 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */; };
+		79407A3A1F7F40B600D23FB3 /* Jpics in Resources */ = {isa = PBXBuildFile; fileRef = 79407A391F7F40B600D23FB3 /* Jpics */; };
+		79407A3E1F7F40D600D23FB3 /* Hiking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3B1F7F40D600D23FB3 /* Hiking.jpg */; };
+		79407A3F1F7F40D600D23FB3 /* Woodwork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */; };
+		79407A401F7F40D600D23FB3 /* Banking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79407A3D1F7F40D600D23FB3 /* Banking.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		3D264A571F7F11A10050524F /* CFGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGUITests.swift; sourceTree = "<group>"; };
 		3D264A591F7F11A10050524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		79407A391F7F40B600D23FB3 /* Jpics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Jpics; sourceTree = SOURCE_ROOT; };
+		79407A3B1F7F40D600D23FB3 /* Hiking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hiking.jpg; path = ../Jpics/Hiking.jpg; sourceTree = "<group>"; };
+		79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Woodwork.jpg; path = ../Jpics/Woodwork.jpg; sourceTree = "<group>"; };
+		79407A3D1F7F40D600D23FB3 /* Banking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Banking.jpg; path = ../Jpics/Banking.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				3D264A3B1F7F11A00050524F /* Main.storyboard */,
 				3D264A3E1F7F11A00050524F /* Assets.xcassets */,
 				3D264A401F7F11A00050524F /* LaunchScreen.storyboard */,
+				79407A3B1F7F40D600D23FB3 /* Hiking.jpg */,
+				79407A3C1F7F40D600D23FB3 /* Woodwork.jpg */,
+				79407A3D1F7F40D600D23FB3 /* Banking.jpg */,
+				79407A391F7F40B600D23FB3 /* Jpics */,
 				3D264A431F7F11A00050524F /* Info.plist */,
 			);
 			path = CFG;
@@ -238,8 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79407A3E1F7F40D600D23FB3 /* Hiking.jpg in Resources */,
 				3D264A421F7F11A00050524F /* LaunchScreen.storyboard in Resources */,
+				79407A3F1F7F40D600D23FB3 /* Woodwork.jpg in Resources */,
+				79407A401F7F40D600D23FB3 /* Banking.jpg in Resources */,
 				3D264A3F1F7F11A00050524F /* Assets.xcassets in Resources */,
+				79407A3A1F7F40B600D23FB3 /* Jpics in Resources */,
 				3D264A3D1F7F11A00050524F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

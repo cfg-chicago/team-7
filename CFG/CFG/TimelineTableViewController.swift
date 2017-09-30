@@ -10,6 +10,9 @@ import UIKit
 
 class TimelineTableViewController: UITableViewController {
 
+    let dataArray = ["1", "2", "3", "4", "5"]
+    let Journeys = ["Hiking", "Woodwork", "Banking"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -23,12 +26,15 @@ class TimelineTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return dataArray.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: <#T##NSIndexPath#>)
-        cell.textLabel?.text = "Test"
+        cell.imageView?.image = UIImage(named: Journeys[indexPath.row] + ".jpg")
+        cell.textLabel?.text = dataArray[indexPath.row]
+        return cell
     }
+    
     
 }
