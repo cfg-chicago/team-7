@@ -12,14 +12,14 @@ def mainRoute():
 
 @app.route("/survey/")
 def surveyRoute():
-	students = firebase.get('/review', None)
-	for student in students:
-		print (student + "responded: ")
+    #students = firebase.get('/review', None)
+    #for student in students:
+    #	print (student + "responded: ")
 
-	questions = students.get('ajeet', None)
-	questions.sort()
-	for question in qudestions:
-		print (question + " ") + questions[question]
+#questions = students.get('ajeet', None)
+#questions.sort()
+#	for question in qudestions:
+#		print (question + " ") + questions[question]
 
 	#studentdata = json.loads(students)
 	#print studentdata['ajeet']
