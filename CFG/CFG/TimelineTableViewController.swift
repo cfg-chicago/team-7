@@ -28,7 +28,6 @@ class TimelineTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataArray.count
     }
-    //yo
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: <#T##NSIndexPath#>)
@@ -37,5 +36,13 @@ class TimelineTableViewController: UITableViewController {
         return cell
     }
     
+    
+    class CircularTableViewCell: UITableViewCell {
+        @IBOutlet weak var circularImageView: UIImageView!
+        override func layoutSubviews() {
+            circularImageView.layer.cornerRadius = circularImageView.bounds.height / 2
+            circularImageView.clipsToBounds = true
+        }
+    }
     
 }
