@@ -8,7 +8,7 @@ firebase = firebase.FirebaseApplication('https://cfgteam7.firebaseio.com/', auth
 
 @app.route("/")
 def mainRoute():
-    return render_template("index.html")
+    return render_template("login.html")
 
 @app.route("/survey/")
 def surveyRoute():
@@ -37,6 +37,10 @@ def surveyRoute():
 	#for result in results:
 		#print(result.Q1)
 	return render_template("survey.html")
+
+@app.route("/portal/")
+def portalRoute():
+    return render_template("index.html")
 
 @app.route("/journey/")
 def journeyRoute():
