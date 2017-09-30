@@ -14,6 +14,7 @@
 		3D264A421F7F11A00050524F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D264A401F7F11A00050524F /* LaunchScreen.storyboard */; };
 		3D264A4D1F7F11A10050524F /* CFGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264A4C1F7F11A10050524F /* CFGTests.swift */; };
 		3D264A581F7F11A10050524F /* CFGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D264A571F7F11A10050524F /* CFGUITests.swift */; };
+		79407A361F7F39C900D23FB3 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D264A531F7F11A10050524F /* CFGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D264A571F7F11A10050524F /* CFGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFGUITests.swift; sourceTree = "<group>"; };
 		3D264A591F7F11A10050524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3D264A371F7F11A00050524F /* AppDelegate.swift */,
+				79407A351F7F39C900D23FB3 /* TimelineTableViewController.swift */,
 				3D264A391F7F11A00050524F /* ViewController.swift */,
 				3D264A3B1F7F11A00050524F /* Main.storyboard */,
 				3D264A3E1F7F11A00050524F /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D264A3A1F7F11A00050524F /* ViewController.swift in Sources */,
+				79407A361F7F39C900D23FB3 /* TimelineTableViewController.swift in Sources */,
 				3D264A381F7F11A00050524F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				3D264A5E1F7F11A10050524F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D264A5F1F7F11A10050524F /* Build configuration list for PBXNativeTarget "CFGTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				3D264A611F7F11A10050524F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D264A621F7F11A10050524F /* Build configuration list for PBXNativeTarget "CFGUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				3D264A641F7F11A10050524F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
